@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Jenna's Recipes:Store Page</title>
+
+  <!--   FONT -->
+
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+  
+<!--   BOOTSTRAP CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<!--   CUSTOM CSS -->
+  <link href="style.css" rel="stylesheet" />
+<!-- JQUERY -->
+       <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script> 
+
+  <!--   FRICONIX -->
+   <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
+</head>
+
+  
+<body>
+<!-- NAVIGATION -->
+  
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">JENNA'S RECIPES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"  href="about.html" >ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html" >RECIPES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="store.htmlhtml" >STORE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!--   HEADER -->
+  <header class="store-header">
+    <div class="mother-row">
+      <!--   IMAGE FOR HEADER -->
+  <img class="mother" src="https://images.unsplash.com/photo-1462710596899-bd7954cfb148?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1740&q=80">
+<div class="on-hover">
+    <div class="hover-text">20% OFF!</div>
+  </div>
+</div>
+  </header>
+
+<!-- header ends -->
+  
+  <section id="about" class="container text-center" >
+      <h1 class="fw-bold mb-3">MOTHER'S DAY SALE!</h1>
+      <h4 class="fw-bold mb-3"> Shower your mom with our special dishes, customized sweets and merchandise! USE CODE JENNALOVES! </h4>
+
+    <section class="popular" id="popular">
+    <center>
+    <h1 class="storeheading" text-align="center"> See what we have <span>in</span> store! </h1>
+    </center>
+      
+    <div class="box-container">
+
+        <div class="box">
+
+          <!-- BOOK -->
+            <div class="book">
+                <img class="pics book-pic" src="recipebook.png" width="300" height="400">
+              <div class="on-hover-book">
+    <div class="hover-text-book">LIMITED EDITION!!</div> 
+  </div>
+              <h3>Jenna's First Recipe Book</h3>
+              <span class="price"> $25 </span>
+            </div>
+
+          <!-- HOODIE -->
+          
+           <div class="hoodie">
+              <img class="pics hoodie-pic" src="hoodie.png" width="300" height="300">
+             <div class="on-hover-hoodie">
+    <div class="hover-text-hoodie">AVAILABLE IN SIZES XS, S, M, L, XL, XXL</div>
+  </div>
+            <h4>Jenna's Kitchen Hoodie</h4>
+            <span class="price"> $25-$30 </span>
+           </div>
+
+          <!-- SWEATSHIRT -->
+
+           <div class="sweatshirt">
+              <img class="pics sweatshirt-pic" src="sweatshirt.png" width="300" height="300">
+             <div class="on-hover-sweatshirt">
+    <div class="hover-text-sweatshirt">ONLY 2 IN STOCK LEFT!!</div>
+  </div>
+            <h4>Jenna's Kitchen Sweatshirt</h4>
+            <span class="price"> $25-$30 </span>
+          </div>
+          
+        </div>
+        </div>
+    </div>
+
+      <!-- FOOTER -->
+  <footer class="bg-cerulean-blue text-light p-5">
+    <div class="row">
+      
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Mailing Address</h4>
+		    <p>Jenna's Cooking Website<br/>
+		       PO Box 196<br/>
+           Los Angeles, CA 90012<br/>
+		       (310) 676-345</p>
+    </div>
+      
+
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Quick Links</h4>
+		<nav> 
+      <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="recipes.html">Recipes</a>
+        <a class="nav-link" href="store.html">Shop</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    </div>
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Connect</h4>
+         
+		<i class="fi-snsuxl-instagram me-2"></i>
+		<i class="fi-swsuxl-youtube me-2"></i>
+		<i class="fi-xnsuxl-facebook me-2"></i>
+          <h6 class="my-3">Subscribe to our monthly newsletter</h6>
+           <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="email@example.com">
+  <button class="btn btn-success btn-small" type="button" id="button-addon2">Subscribe</button>
+</div>
+    </div>
+      
+    </div>
+    </div>
+  </footer>
+  
+</section>
+    
+  </section>
+  <!-- CUSTOM JS -->
+  <script src="script.js"></script>
+  <!-- BOOTSTRAP JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>

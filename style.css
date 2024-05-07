@@ -1,0 +1,220 @@
+/* BOOTSTRAP ICONS */
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css");
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+html {
+  font-size: 18px;
+}
+
+.bg-cerulean-blue{
+  background-color: #121c1c;
+}
+
+section#prevent{
+  background-color: #fde74c;
+  
+  height: 50vh;
+}
+section#carbon{
+  background-color: grey;
+}
+div#hero-image{
+  background-image: url("bg-3.jpg");
+  height: 75vh;
+  
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+div#harvest{
+  background-image: url("farm.jpg");
+    background-color: gray;
+
+  height: 50vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+
+main {
+  min-height: 100vh;
+}
+
+
+.main{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: ;
+  height: 90%
+  
+}
+
+
+
+
+
+
+
+
+
+header#home{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('ingredients.jpg');
+}
+
+header {
+  min-height: 70vh;
+  color: white;
+  background-color: grey;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
+
+.purpose{
+font-family: "Times New Roman", Times, serif;
+  font-size: 27px;
+  color: #4297A0;
+  background-color: hsla(341, 0%, 0%, 0.34);
+height:300px;
+  width:100%;
+  border: thick double black;
+
+
+}
+
+div.flex{
+  display:flex;
+  float: center;
+  text-align: center;
+  padding: 12px;
+  margin: 15px;
+  justify-content: center;
+  overflow: auto;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+
+}
+
+/* animated icons */
+/* .flex {
+  width: 100%;
+  background-color: #000000;
+  overflow: auto;
+  margin-block-start: 1em;
+  margin-block-end: 2em;
+} */
+
+/* Navbar links */
+/* .flex a {
+ 
+  color: white;
+  text-decoration: none;
+  font-size: 50px;
+} */
+
+/* Navbar links on mouse-over */
+/* .flex a:hover {
+  background-color: #7a7a7a !important;
+}
+ */
+
+/* store page design */
+
+.store-header {
+  padding-bottom: 20px;
+  margin-block: 20px;
+  border-block-color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+.mother {
+  opacity: 1;
+  display: block;
+  max-width: 100%;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.on-hover {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hover-text {
+  background-color: #b26099;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+
+.mother-row:hover .mother {
+  opacity: 0.3;
+}
+
+.mother-row:hover .on-hover {
+  opacity: 1;
+}
+
+/* hovering over store img */
+
+.pics {
+  opacity: 1;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.book:hover .book-pic {
+  opacity: 0.3;
+}
+
+.book:hover .on-hover-book {
+  opacity: 1;
+}
+
+.hoodie:hover .hoodie-pic {
+  opacity: 0.3;
+}
+
+.hoodie:hover .on-hover-hoodie {
+  opacity: 1;
+}
+
+.sweatshirt:hover .sweatshirt-pic {
+  opacity: 0.3;
+}
+
+.sweatshirt:hover .on-hover-sweatshirt {
+  opacity: 1;
+}
+
+
+
+
+
+

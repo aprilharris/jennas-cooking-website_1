@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Recipes Generator</title>
+  
+<!--   FONT -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@200&family=Fuzzy+Bubbles:wght@400;700&display=swap" rel="stylesheet">
+
+
+  <!--   BOOTSTRAP CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+
+<!--   CUSTOM CSS -->
+  <link href="style.css" rel="stylesheet" />
+
+<!-- JQUERY -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+  <!--   FRICONIX -->
+   <script defer src="https://friconix.com/cdn/friconix.js"> </script> 
+
+  <!-- Javascript -->
+  <script src="script.js"></script>
+  
+</head>
+
+<body>
+  
+<!-- NAVIGATION -->
+  <nav class="navbar navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">JENNA'S RECIPES</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link"  href="about.html" >ABOUT</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="recipes.html" >RECIPES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="store.html" >STORE</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+    <div>
+      <!--   IMAGE FOR HEADER -->
+      <img src= "recipebook.jpg" width="1450" height="1000">
+
+    </div>
+  
+</main>
+  
+ <section class="container text-center p-5">
+    <div id="recipegenerator" class= "searching">
+    <h2 class="text-center mb-3">Recipe Generator</h2>
+    
+
+      <!-- INGREDIENT #1 -->
+      <div class="input-group mb-3">
+      <span class="input-group-text" id="ingredient1">Ingredient #1</span>
+      <input type="text" class="form-control ing1" placeholder="Enter ingredient" aria-label="ingredient1" aria-describedby="ingredient1">
+    </div>
+      <!-- INGREDIENT #2 -->
+      <div class="input-group mb-3">
+      <span class="input-group-text" id="ingredient2">Ingredient #2</span>
+      <input type="text" class="form-control ing2" placeholder="Enter ingredient" aria-label="ingredient2" aria-describedby="ingredient2">
+    </div>
+      <!-- INGREDIENT #3 -->
+      <div class="input-group mb-3">
+      <span class="input-group-text" id="ingredient3">Ingredient #3</span>
+      <input type="text" class="form-control ing3" placeholder="Enter ingredient" aria-label="ingredient3" aria-describedby="ingredient3">
+</div>
+    <button class="btn btn-primary btn-lg latlongButton" onclick="fetchRecipes()">Generate Recipes</button>
+  </div>
+  <br>
+  <h2 class="result"></h2>
+  <img class="recipe-image" src="">
+  <h5 class="instro"></h5>
+
+</main>
+
+   <!-- FOOTER -->
+  <footer class="bg-dark text-light p-5">
+    <div class="row">
+      
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Mailing Address</h4>
+		    <p>Jenna's Cooking Website<br/>
+		       PO Box 196<br/>
+           Los Angeles, CA 90012<br/>
+		       (310) 676-345</p>
+    </div>
+      
+
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Quick Links</h4>
+		<nav> 
+      <a class="nav-link" href="index.html">Home</a>
+        <a class="nav-link" href="about.html">About</a>
+        <a class="nav-link" href="recipes.html">Recipes</a>
+        <a class="nav-link" href="store.html">Shop</a>
+        <a class="nav-link" href="contact.html">Contact</a>
+    </nav>
+    </div>
+      <div class="col-sm col-md col-lg mb-3">
+        <h4>Connect</h4>
+         
+		<i class="fi-snsuxl-instagram me-2"></i>
+		<i class="fi-swsuxl-youtube me-2"></i>
+		<i class="fi-xnsuxl-facebook me-2"></i>
+          <h6 class="my-3">Subscribe to our monthly newsletter</h6>
+           <div class="input-group mb-3">
+  <input type="text" class="form-control" placeholder="email@example.com">
+  <button class="btn btn-success btn-small" type="button" id="button-addon2">Subscribe</button>
+</div>
+    </div>
+      
+    </div>
+    </div>
+  </footer>
+   <!-- BOOTSTRAP JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
